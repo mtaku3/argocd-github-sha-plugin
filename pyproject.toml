@@ -1,0 +1,13 @@
+[project]
+name = "argocd-github-sha-plugin"
+version = "0.1.0"
+description = "ArgoCD ApplicationSet plugin that resolves GitHub HEAD commit SHA"
+requires-python = ">=3.12"
+dependencies = [
+    "pyjwt[crypto]>=2.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
